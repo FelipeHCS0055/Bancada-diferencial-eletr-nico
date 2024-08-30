@@ -37,8 +37,6 @@ Este projeto é baseado na grande inserção dos veículos elétricos. Justifica
   Figura 1: Diagrama de bloco do diferencial eletrônico
 <p>
 
-<br>
-
 Na Figura 02, temos o volante joystick juntamente com os aceleradores para o controle manual na simulação de um veículo com a apliação dos resultados na bancada MIT mostrada na Figura 03.
 
 <p align="center">
