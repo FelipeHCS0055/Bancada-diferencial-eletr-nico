@@ -33,9 +33,9 @@ Este projeto é baseado na grande inserção dos veículos elétricos. Justifica
 <p align="center">
   <img src="media/fig01.png" alt="Diagrama de bloco do diferencial eletrônico" width="600"/>
 <p>
-<center>
-  <figcaption>Figura 1: Diagrama de bloco do diferencial eletrônico</figcaption>
-</center>
+<p align="center">
+  Figura 1: Diagrama de bloco do diferencial eletrônico
+<p>
 
 <br>
 
@@ -44,18 +44,18 @@ Na Figura 02, temos o volante joystick juntamente com os aceleradores para o con
 <p align="center">
   <img src="media/fig02.png" alt="Diagrama de bloco do diferencial eletrônico" width="300" style="display: block; margin: 0 auto;"/>
 <p>
-<center>
-  <figcaption>Figura 2:  Volante joystick e aceleradores para controle manual</figcaption>
-<center>
+<p align="center">
+  Figura 2:  Volante joystick e aceleradores para controle manual
+<p>
 
 <br>
 
 <p align="center">
   <img src="media/fig03.png" alt="Diagrama de bloco do diferencial eletrônico" width="500" style="display: block; margin: 0 auto;"/>
 <p>
-<center>
-  <figcaption>Figura 3: Bancada completa <br> 1) Banco de seis bateriais de chumbo 12 V, 60 Ah <br> 2) Carregador das baterias de chumbo 12 V, 10 A <br> 3) Fonte CC, 60 W, 2000 W <br> 4) Conjunto de capacitores eletrolíticos para emular um banco de UCs, 100 V (máx), 0,1 F <br> 5) Subsistema de geração <br> 6) Subsistema de tração e resistência veicular <br> 7) Conversores CC-CC <br> 8) Plataforma dSPACE HIL (MicroAutoBoxII) <br> 9) Interface com a plataforma dSPACE</figcaption>
-<center>
+<p align="center">
+  Figura 3: Bancada completa <br> 1) Banco de seis bateriais de chumbo 12 V, 60 Ah <br> 2) Carregador das baterias de chumbo 12 V, 10 A <br> 3) Fonte CC, 60 W, 2000 W <br> 4) Conjunto de capacitores eletrolíticos para emular um banco de UCs, 100 V (máx), 0,1 F <br> 5) Subsistema de geração <br> 6) Subsistema de tração e resistência veicular <br> 7) Conversores CC-CC <br> 8) Plataforma dSPACE HIL (MicroAutoBoxII) <br> 9) Interface com a plataforma dSPACE
+<p>
 
 ## ⚡ Plano de trabalho
 
