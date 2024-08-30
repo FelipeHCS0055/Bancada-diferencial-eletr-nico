@@ -24,10 +24,45 @@ Este projeto é idealizado nos principais objetivos descritos abaixo:
 - Aprendizagem Matlab/Simulink e dSPACE - conceitos básicos;
 - Estudo e modelagem do diferencial eletrônico;
 - Aplicação do projeto na bancada MIT e;
-- Adequação da bancada MIT para utilizar o controle joystick/pedais juntamente com o diferencial eletrônico;
+- Adequação da bancada MIT para utilizar o controle joystick/pedais juntamente com o diferencial eletrônico.
 
 ## ⚙️ Descrição e metodologia do objeto
 
 Este projeto é baseado na grande inserção dos veículos elétricos. Justificamos o seu desenvolvimento pela melhoria na dinâmica de direção, aumento de segurança, eficiência e desempenho energético, avanço na tecnologia e potencialidade para aplicações futuras. Em suma, o controle de tração nas rodas do veículo não pode ser o mesmo devido à perca de estabilidade que é causada e entre outros efeitos, dessa forma, a analogia do diferencial eletrônico é baseado na diferença de tração enviadas como sinal para os motores do veículo. O sinal de referência dependerá da curva realizada e a direção para onde é realizada, acarretando na diferença de velocidade das rodas. Na Figura 01 é desenhado o diagrama de blocos para o diferencial eletrônico, idealizado a partir das referências consultadas. 
 
+<figure style="text-align: center;">
+  <img src="media/fig01.png" alt="Diagrama de bloco do diferencial eletrônico" width="600" style="display: block; margin: 0 auto;"/>
+  <figcaption>Figura 1: Diagrama de bloco do diferencial eletrônico</figcaption>
+</figure>
+
 Na Figura 02, temos o volante joystick juntamente com os aceleradores para o controle manual na simulação de um veículo com a apliação dos resultados na bancada MIT mostrada na Figura 03.
+
+<figure style="text-align: center;">
+  <img src="media/fig02.png" alt="Diagrama de bloco do diferencial eletrônico" width="300" style="display: block; margin: 0 auto;"/>
+  <figcaption>Figura 2:  Volante joystick e aceleradores para controle manual
+</figcaption>
+</figure>
+
+<br>
+
+<figure style="text-align: center;">
+  <img src="media/fig03.png" alt="Diagrama de bloco do diferencial eletrônico" width="500" style="display: block; margin: 0 auto;"/>
+  <figcaption>Figura 3: Bancada completa <br> 1) Banco de seis bateriais de chumbo 12 V, 60 Ah <br> 2) Carregador das baterias de chumbo 12 V, 10 A <br> 3) Fonte CC, 60 W, 2000 W <br> 4) Conjunto de capacitores eletrolíticos para emular um banco de UCs, 100 V (máx), 0,1 F <br> 5) Subsistema de geração <br> 6) Subsistema de tração e resistência veicular <br> 7) Conversores CC-CC <br> 8) Plataforma dSPACE HIL (MicroAutoBoxII) <br> 9) Interface com a plataforma dSPACE
+</figcaption>
+</figure>
+
+## ⚡ Plano de trabalho
+
+1. Conhecimento de softwares, plataformas e laboratório para o trabalho;
+2. Modelagem do diferencial eletrônico e realização de simulações no Simulink;
+3. Aplicação do diferencial eletrônico na bancada MIT através do dSPACE e;
+4. Aplicação do joystick/pedais na bancada MIT para simular um veículo.
+
+### 📅 Cronograma
+- 13/09: Apresentação do cronograma feito em Excel;
+- 20/09: Reunião (na Sasel) para atividades no Simulink em grupo;
+- 27/09 a 04/10: Estudos (através da literatura) sobre o diferencial eletrônico;
+- 11/10: Função transferência
+- 18/10 e 25/10: Simulações no laboratório;
+- 01/11: Discussão dos resultados e;
+- 08/11 a ...: Avaliação dos resultados (mudanças e novas simulações, se necessário) para o projeto final. 
