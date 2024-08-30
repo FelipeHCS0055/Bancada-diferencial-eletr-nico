@@ -30,22 +30,30 @@ Este projeto é idealizado nos principais objetivos descritos abaixo:
 
 Este projeto é baseado na grande inserção dos veículos elétricos. Justificamos o seu desenvolvimento pela melhoria na dinâmica de direção, aumento de segurança, eficiência e desempenho energético, avanço na tecnologia e potencialidade para aplicações futuras. Em suma, o controle de tração nas rodas do veículo não pode ser o mesmo devido à perca de estabilidade que é causada e entre outros efeitos, dessa forma, a analogia do diferencial eletrônico é baseado na diferença de tração enviadas como sinal para os motores do veículo. O sinal de referência dependerá da curva realizada e a direção para onde é realizada, acarretando na diferença de velocidade das rodas. Na Figura 01 é desenhado o diagrama de blocos para o diferencial eletrônico, idealizado a partir das referências consultadas. 
 
-<center>
+<p align="center">
   <img src="media/fig01.png" alt="Diagrama de bloco do diferencial eletrônico" width="600"/>
+<p>
+<center>
   <figcaption>Figura 1: Diagrama de bloco do diferencial eletrônico</figcaption>
 </center>
 
+<br>
+
 Na Figura 02, temos o volante joystick juntamente com os aceleradores para o controle manual na simulação de um veículo com a apliação dos resultados na bancada MIT mostrada na Figura 03.
 
-<center>  
+<p align="center">
   <img src="media/fig02.png" alt="Diagrama de bloco do diferencial eletrônico" width="300" style="display: block; margin: 0 auto;"/>
+<p>
+<center>
   <figcaption>Figura 2:  Volante joystick e aceleradores para controle manual</figcaption>
 <center>
 
 <br>
 
-<center>  
+<p align="center">
   <img src="media/fig03.png" alt="Diagrama de bloco do diferencial eletrônico" width="500" style="display: block; margin: 0 auto;"/>
+<p>
+<center>
   <figcaption>Figura 3: Bancada completa <br> 1) Banco de seis bateriais de chumbo 12 V, 60 Ah <br> 2) Carregador das baterias de chumbo 12 V, 10 A <br> 3) Fonte CC, 60 W, 2000 W <br> 4) Conjunto de capacitores eletrolíticos para emular um banco de UCs, 100 V (máx), 0,1 F <br> 5) Subsistema de geração <br> 6) Subsistema de tração e resistência veicular <br> 7) Conversores CC-CC <br> 8) Plataforma dSPACE HIL (MicroAutoBoxII) <br> 9) Interface com a plataforma dSPACE</figcaption>
 <center>
 
